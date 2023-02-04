@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+button {
+    padding: 16px 24px;
+    border: 1px solid #8B5CF6;
+    border-radius: 8px;
+    background-color: transparent;
+    color: #ffff;
+
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
